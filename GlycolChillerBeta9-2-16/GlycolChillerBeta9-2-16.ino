@@ -218,7 +218,7 @@ void updateFV1State() {
       break;
 
     case FV1HEAT:
-      doFV1PID;
+      doFV1PID();
       Serial.println("FV1 HEATING");
       break;
 
@@ -253,7 +253,7 @@ void updateFV2State() {
       break;
 
     case FV2HEAT:
-      doFV2PID;
+      doFV2PID();
       Serial.println("FV2 HEATING");
       break;
 
